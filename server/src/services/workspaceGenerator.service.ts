@@ -7,7 +7,7 @@ const GENERATED_WORKSPACES_DIR = path.resolve(
   process.cwd(),
   "generated-workspaces"
 );
-const TEMPLATE_ROOT_DIR = path.resolve(process.cwd(), "src", "templates");
+const TEMPLATE_ROOT_DIR = path.resolve(process.cwd(), "templates");
 
 const sanitizeName = (value: string): string =>
   value
