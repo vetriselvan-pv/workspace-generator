@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Server (Dev)",
+      "type": "node-terminal",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/server",
+      "command": "npm run dev"
+    },
+    {
+      "name": "Debug Server (TypeScript)",
+      "type": "pwa-node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev:debug"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "name": "Debug Server (Built JS)",
+      "type": "pwa-node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/server",
+      "program": "${workspaceFolder}/server/dist/server.js",
+      "preLaunchTask": "server:build",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

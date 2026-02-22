@@ -1,0 +1,36 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --bg-page: #f4f8f6;
+  --text-primary: #1f2d2a;
+  --text-muted: #5d726b;
+  --panel-bg: #ffffff;
+  --panel-border: #d8e6e0;
+  --input-bg: #fcfefd;
+  --input-border: #bfd3cb;
+  --input-focus: #8ebfaf;
+  --accent: #5ea38c;
+  --accent-hover: #4c8f7a;
+  --chip-bg: #ecf7f2;
+  --chip-border: #b7dccd;
+  --chip-text: #2f6f57;
+  --dropdown-hover: #f0f8f4;
+  --code-bg: #2d3b37;
+  --code-text: #e3f1ec;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--text-primary);
+  background: var(--bg-page);
+}

@@ -1,0 +1,23 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wg_bg" x1="20" y1="20" x2="140" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6BB39B"/>
+      <stop offset="1" stop-color="#3F8F74"/>
+    </linearGradient>
+    <linearGradient id="wg_panel" x1="42" y1="36" x2="118" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FFFC"/>
+      <stop offset="1" stop-color="#E9F6F0"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="136" height="136" rx="30" fill="url(#wg_bg)"/>
+  <rect x="36" y="34" width="88" height="92" rx="14" fill="url(#wg_panel)"/>
+  <rect x="50" y="50" width="60" height="8" rx="4" fill="#8EBFAC"/>
+  <rect x="50" y="66" width="44" height="8" rx="4" fill="#A7D3C2"/>
+  <rect x="50" y="82" width="52" height="8" rx="4" fill="#BFE3D5"/>
+  <path d="M56 112L72 98L88 112L104 98" stroke="#2C6A55" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="80" r="7" fill="#CDEADD"/>
+  <circle cx="136" cy="80" r="7" fill="#CDEADD"/>
+  <path d="M31 80H36" stroke="#CDEADD" stroke-width="4" stroke-linecap="round"/>
+  <path d="M124 80H129" stroke="#CDEADD" stroke-width="4" stroke-linecap="round"/>
+</svg>
+
